@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptação de Imagem</title>
+</head>
+<body>
+
+    <h1>Tentativa de Imagens</h1>
+    <p>Vamos mais uma vez voltar a estudar, dessa vez, sem parar, continuando de onde parei, adaptação de imagem</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-pequena.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/foto-media.png" type="image/png">
+        <img src="imagens/foto-grande.png" alt="foto-grande">
+    </picture>
+</body>
+</html>
